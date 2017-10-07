@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Chewy|Dancing+Script|Gloria+Hallelujah|Indie+Flower|PT+Sans|Permanent+Marker|Roboto:400,700');
+body{
+  max-width:100%;
+  background: white;
+  color: black;
+  font-family: Chewy, cursive;
+  font-weight:900;
+  font-size:20px;
+  letter-spacing:1px;
+  margin:5%;
+}
+
+.fa-heart{
+  color:red;
+  font-size:20px;
+  padding-right:2px;
+}
+i.fa-twitter{
+  font-size:20px;
+  color:steelblue;
+  padding-right:2px;
+}
+span{
+  margin:1.5%;
+  cursor:pointer;
+}
+.red{
+  margin-bottom:2% ;
+  background:#87CEEB !important;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+  font-size:30px;
+  border: 2px solid #4CC3D9 !important;
+  color: black;
+  border-radius:30px;
+  box-shadow:3px 3px 3px #4CC3D9;
+}
+.red:hover{
+  background: #4CC3D9 !important;
+  color:black;
+}
+.getQuote{
+  cursor:pointer;
+}
+
+.jumbotron{
+  background-color:#FFC65D;
+  font-size:20px;
+  border-radius:20px;
+  box-shadow:4px 4px 4px orange;
+  transition: all 0.4s;
+}
+.jumbotron:hover{
+  background:orange;
+   transition: all 3s;
+
+}
+.tweet {
+  background: #87CEEB;
+  cursor:pointer;
+  box-shadow: 1px 1px 5px #444;
+}
+
+.tweet:hover{
+  background: #4CC3D9 !important;
+ transition: 3s;
+}
+.btn-default{
+  background-color:#FFC65D !important;
+  border:1px solid orange;
+}
+.btn-default:hover {
+  background-color:orange !important;
+  transition: 3s;
+  }
